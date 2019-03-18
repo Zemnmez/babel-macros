@@ -9,7 +9,7 @@ this repo contains some babel macros i find useful
 ![screenshot](log.png)
 ```javascript
 import log from '@zemnnmez/macros/log.macro';
-const [x, y] = ["hello, "world"];
+const [x, y] = ["hello", "world"];
 log({ x, y });
 ```
 
