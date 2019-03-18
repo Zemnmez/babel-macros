@@ -1,6 +1,6 @@
 {
   "name": "@zemnmez/macros",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "some useful macros for debugging and logging",
   "main": "index.js",
   "repository": "https://github.com/Zemnmez/babel-macros",
