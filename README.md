@@ -10,7 +10,7 @@ this repo contains some babel macros i find useful
 ```javascript
 import log from '@zemnnmez/macros/log.macro';
 const [x, y] = ["hello", "world"];
-log({ x, y });
+log({ x, y }); // File.js:32 ExampleClass.ExampleMethod {x: "hello", y: "world"}
 ```
 
 This macro produces no code unless `NODE_ENV == development`. It exposes a macro, `log()`, intended to be used like a function.
@@ -23,8 +23,8 @@ class and method that the log was called from is prepended in light grey.
 ```javascript
 import assert from '@zemnmez/macros/assert.macro';
 const [x, y] = [true, false];
-asset(x == y, {x, y});
-assert(true == false, "some message", "some other message");
+assert(x == y, {x, y}); // assertion failed: File.js:32 x == y {x: true, y: false}
+assert(true == false, "some message", "some other message"); // assertion failed: File.js:32 true == false some message some other message
 ```
 
 This macro produces no code unless `NODE_ENV == development`. It exposes a macro, `assert()`, indended to be used like a function.
