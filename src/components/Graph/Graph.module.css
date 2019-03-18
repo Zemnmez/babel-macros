@@ -1,7 +1,0 @@
-.graph {}
-.graph .boxes {}
-.graph .event {}
-.graph .x.y.axis {}
-
-.graph * { stroke: none }
-.graph .event:hover { fill: grey }
