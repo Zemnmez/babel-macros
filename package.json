@@ -1,0 +1,10 @@
+{
+  "name": "@zemnmez/macros",
+  "version": "1.0.0",
+  "description": "some useful macros for debugging and logging",
+  "main": "index.js",
+  "repository": "https://github.com/Zemnmez/macros",
+  "author": "zemnmez",
+  "license": "MIT",
+  "private": false
+}
